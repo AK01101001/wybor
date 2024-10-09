@@ -1,3 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="polecenie">Które kolory nie występują we fladze polski</string>
+    <string name="przycisek">przycisek</string>
+    <string name="podsumowanie">to jest flaga polski</string>
+    <string name="zla">się popisałeś</string>
+    <string name="dobra">dobrze</string>
     <string name="app_name">flagi</string>
 </resources>
