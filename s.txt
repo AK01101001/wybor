@@ -1,0 +1,77 @@
+package pl.zabrze.zs10.appp;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity
+{
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState)
+    {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void losuj(View view)
+    {
+
+        //view.setVisibility(View.INVISIBLE);
+        TextView textViewLiczba = findViewById(R.id.textView);
+        int liczba = (int) (Math.random() * 9)+1;
+        textViewLiczba.setText(String.valueOf(liczba));
+        Toast.makeText(this, "Wylosowano", Toast.LENGTH_SHORT).show();
+    }
+}
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#739773"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daj mi pokuj"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:textSize="128sp"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wylosuj sie sam"
+        android:backgroundTint="#002200"
+        android:padding="32dp"
+        android:onClick="losuj"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chamie tam"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>
