@@ -20,86 +20,18 @@
         android:textStyle="bold"
         android:text="@string/polecenie" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:onClick="dobraOdpowiedz"
+        android:text="@string/Shores" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="@color/white"
-            android:onClick="zlaOdpwiedz"
-            android:layout_margin="@dimen/marginBetweenButtons"
-
-            android:text="@string/przycisek" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="@color/czerwony"
-            android:onClick="zlaOdpwiedz"
-            android:layout_margin="@dimen/marginBetweenButtons"
-
-            android:text="@string/przycisek" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="@color/radioaktywny"
-            android:onClick="dobraOdpowiedz"
-            android:layout_margin="@dimen/marginBetweenButtons"
-
-
-            android:text="@string/przycisek" />
-    </LinearLayout>
-
-    <LinearLayout
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="@color/fusia"
-            android:onClick="dobraOdpowiedz"
-            android:layout_margin="@dimen/marginBetweenButtons"
-            android:text="@string/przycisek" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="@color/niebieski"
-            android:onClick="dobraOdpowiedz"
-            android:layout_margin="@dimen/marginBetweenButtons"
-
-
-
-            android:text="@string/przycisek" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:backgroundTint="@color/black"
-            android:onClick="dobraOdpowiedz"
-            android:layout_margin="@dimen/marginBetweenButtons"
-
-
-
-            android:text="@string/przycisek" />
-    </LinearLayout>
+        android:onClick="zlaOdpwiedz"
+        android:text="@string/fra" />
 
 </LinearLayout>

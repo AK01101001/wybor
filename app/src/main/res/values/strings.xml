@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="polecenie">Które kolory nie występują we fladze polski</string>
-    <string name="przycisek">przycisek</string>
-    <string name="podsumowanie">to jest flaga polski</string>
-    <string name="zla">się popisałeś</string>
+    <string name="polecenie">Black Shores czy Fracticidus</string>
+    <string name="zla">pomyśl</string>
     <string name="dobra">dobrze</string>
-    <string name="app_name">flagi</string>
+    <string name="app_name">pytanie</string>
+    <string name="fra" translatable="false">Fracticidus</string>
+    <string name="Shores" translatable="false">Black shores</string>
+
 </resources>

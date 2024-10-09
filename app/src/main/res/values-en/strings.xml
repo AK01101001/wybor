@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="polecenie">which color isn\'t exist in polish flag</string>
-    <string name="przycisek">button</string>
-    <string name="podsumowanie">good job</string>
-    <string name="zla">beter check this in internet</string>
-    <string name="dobra">good random click</string>
-    <string name="app_name">m44</string>
+    <string name="polecenie">Black Shores czy Fracticidus</string>
+    <string name="zla">think</string>
+    <string name="dobra">good answer</string>
+    <string name="app_name">question</string>
 </resources>

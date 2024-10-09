@@ -9,7 +9,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private int licznik;
     private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,17 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void zlaOdpwiedz(View view) 
     {
-        Toast.makeText(this, R.string.zla, Toast.LENGTH_SHORT).show();
+        textView.setText(R.string.zla);
     }
 
     public void dobraOdpowiedz(View view)
     {
-        Toast.makeText(this, R.string.dobra, Toast.LENGTH_SHORT).show();
-        licznik++;
-        view.setVisibility(View.INVISIBLE);
-        if (licznik==4)
-        {
-            textView.setText(R.string.podsumowanie);
-        }
+        textView.setText(R.string.dobra);
     }
 }
